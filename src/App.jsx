@@ -197,7 +197,7 @@ function Library({ books, t, css, onOpen, onDelete, onAdd, onSettings }) {
   return (
     <div>
       <header style={css.header}>
-        <span style={css.headerTitle}>FlashRead</span>
+        <span style={css.headerTitle}>ハヤ読み</span>
         <div style={{ display: "flex", gap: 6 }}>
           <button style={css.iconBtn} onClick={onSettings}>
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
